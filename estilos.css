@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #aad224;
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white; /* Agrega el borde blanco debajo del encabezado */
+}
+
+#encabezado {
+    margin-left: 20px;
+}
+
+#menu {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #D63D8F;
+}
+
+#button {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+}
+
+#button li {
+    display: inline;
+}
+
+#button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#button a:hover {
+    background-color: #9D66DE;
+    text-shadow: #43206B -1px 1px 2px;
+    margin-top: -6px;
+    padding-bottom: 6px;
+}
+
+#contenido {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#izquierda {
+    width: 640px;
+    float: right;
+}
+
+#derecha {
+    width: 240px;
+    float: left;
+    margin: 0;
+    padding: 0 30px 30px 0;
+}
+
+.post {
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.post h2 {
+    padding: 4px 35px 4px 15px;
+    background: #000000;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.post p {
+    padding: 5px 0;
+}
+
+a {
+    color: #7EBA25;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #000000;
+    color: #686767;
+    text-align: center;
+}
